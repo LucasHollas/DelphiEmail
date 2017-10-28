@@ -62,7 +62,7 @@ begin
   exit;
 end;
 
-frmEmail := frmEmail.Create(Self);
+frmEmail := TfrmEmail.Create(Self);
 frmEmail.Show;
 frmMain.Visible:=false;
 
