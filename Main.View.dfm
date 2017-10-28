@@ -3,8 +3,8 @@ object frmMain: TfrmMain
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Main'
-  ClientHeight = 191
-  ClientWidth = 429
+  ClientHeight = 188
+  ClientWidth = 433
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,12 +18,14 @@ object frmMain: TfrmMain
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 429
-    Height = 191
+    Width = 433
+    Height = 188
     Align = alClient
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 429
+    ExplicitHeight = 191
     object Label1: TLabel
       Left = 240
       Top = 66
@@ -112,7 +114,7 @@ object frmMain: TfrmMain
     object Panel2: TPanel
       Left = 1
       Top = 1
-      Width = 427
+      Width = 431
       Height = 41
       Align = alTop
       Caption = 'DADOS PARA ENVIO'
@@ -125,16 +127,18 @@ object frmMain: TfrmMain
       ParentBackground = False
       ParentFont = False
       TabOrder = 5
+      ExplicitWidth = 427
     end
     object Panel3: TPanel
       Left = 1
       Top = 42
-      Width = 427
+      Width = 431
       Height = 7
       Align = alTop
       Color = clMaroon
       ParentBackground = False
       TabOrder = 6
+      ExplicitWidth = 427
     end
     object Edt_Host: TEdit
       Left = 240
